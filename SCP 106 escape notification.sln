@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCP 106 escape notification", "SCP 106 escape notification\SCP 106 escape notification.csproj", "{A2A416AE-7B37-40AB-999B-A04C62F5195B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A416AE-7B37-40AB-999B-A04C62F5195B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A416AE-7B37-40AB-999B-A04C62F5195B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A416AE-7B37-40AB-999B-A04C62F5195B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A416AE-7B37-40AB-999B-A04C62F5195B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13514878-34CB-49EC-84ED-52D452AA5A6E}
+	EndGlobalSection
+EndGlobal
