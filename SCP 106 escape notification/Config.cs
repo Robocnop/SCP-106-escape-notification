@@ -1,4 +1,6 @@
-﻿using Exiled.API.Interfaces;
+﻿using Exiled.API.Features.Roles;
+using Exiled.API.Interfaces;
+using PlayerRoles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
