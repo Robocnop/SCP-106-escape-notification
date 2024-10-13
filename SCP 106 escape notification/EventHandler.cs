@@ -7,6 +7,11 @@ namespace SCP_106_escape_notification
 {
     public static class EventHandler
     {
+        private static Player Find106()
+        {
+            return Player.List.FirstOrDefault(player => player.Role.Type == RoleTypeId.Scp106);
+        }
+        
         public static void Escaped(EscapingPocketDimensionEventArgs ev)
         {
             Find106()?.ShowHint(Plugin.Instance.Translation.EscapeHint.Replace("[PLAYERNAME]", ev.Player.Nickname));
@@ -14,11 +19,6 @@ namespace SCP_106_escape_notification
         public static void Failed(FailingEscapePocketDimensionEventArgs ev)
         {
             Find106()?.ShowHint(Plugin.Instance.Translation.FailedHint.Replace("[PLAYERNAME]",ev.Player.Nickname));
-        }
-        
-        private static Player Find106()
-        {
-            return Player.List.FirstOrDefault(player => player.Role.Type == RoleTypeId.Scp106);
         }
     }
 }
