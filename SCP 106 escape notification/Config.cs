@@ -1,11 +1,4 @@
-﻿using Exiled.API.Features.Roles;
-using Exiled.API.Interfaces;
-using PlayerRoles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Exiled.API.Interfaces;
 
 namespace SCP_106_escape_notification
 {
