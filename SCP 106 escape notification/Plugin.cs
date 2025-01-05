@@ -6,7 +6,7 @@ namespace SCP_106_escape_notification
     public class Plugin : Plugin<Config,Translations>
     {
         public override string Name => "106 Escape notifier";
-        public override string Author => "Hybrid";
+        public override string Author => "Made by Hybrid & compiled by Robocnop";
         public override Version Version => new Version(1,0,0);
         public static Plugin Instance { get; private set; }
         public override void OnEnabled()
